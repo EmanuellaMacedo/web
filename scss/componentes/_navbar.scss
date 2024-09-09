@@ -1,0 +1,10 @@
+.navbar{
+    margin: 5px;
+    padding: 20px;
+    gap: 20px;
+    background-color:white;
+    display: flex;
+    justify-content: end;
+    :link{color: black;} 
+    :visited{ color: rgb(85, 154, 151);}
+}

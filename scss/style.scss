@@ -1,0 +1,18 @@
+
+//base
+@import "./base/vars";
+@import "./base/utilities";
+@import "./base/reset";
+
+//componentes
+@import "./componentes/footer";
+@import "./componentes/galeria";
+@import "./componentes/navbar";
+
+//layout
+@import "./layout/contacto";
+@import "./layout/index";
+@import "./layout/mediaqueries";
+@import "./layout/blog";
+@import "./layout/quiensoy";
+@import "./layout/portafolio"

@@ -1,0 +1,34 @@
+/* styles.css */
+
+/* Estilos generales */
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del botón flotante de WhatsApp */
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde el borde inferior */
+    right: 20px; /* Ajusta la distancia desde el borde derecho */
+    z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    border-radius: 50%; /* Hace que el botón sea circular */
+    padding: 10px; /* Espacio alrededor del icono */
+    box-shadow: 0 4px 8px rgb(55, 99, 37); /* Sombra para darle un efecto elevado */
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves para color y escala */
+  }
+  
+  .whatsapp-button:hover {
+    transform: scale(1.1); /* Efecto de escala cuando se pasa el cursor */
+  }
+  
+  .whatsapp-button img {
+    width: 60px; /* Tamaño del icono */
+    height: auto; /* Mantiene las proporciones del icono */
+    display: block; /* Asegura que la imagen no tenga espacios alrededor */
+  }
+  
